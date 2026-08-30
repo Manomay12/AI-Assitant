@@ -1,0 +1,27 @@
+# ==================================================
+# requirements.txt — JARVIS 4.0
+# ==================================================
+# Install all dependencies:
+#   pip install -r requirements.txt
+# ==================================================
+
+# HTTP requests to the local Ollama AI server
+requests>=2.31.0
+
+# Screen automation (keyboard shortcuts, screenshots)
+pyautogui>=0.9.54
+
+# Window management (detect and focus Chrome window)
+pygetwindow>=0.0.9
+
+# Text-to-speech (JARVIS voice output)
+pyttsx3>=2.90
+
+# Speech recognition (voice input from microphone)
+SpeechRecognition>=3.10.0
+
+# PyAudio is required by SpeechRecognition for microphone access.
+# If "pip install pyaudio" fails on Windows, download the matching wheel from:
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+# and install with: pip install PyAudio‑0.2.11‑cp311‑cp311‑win_amd64.whl
+PyAudio>=0.2.11

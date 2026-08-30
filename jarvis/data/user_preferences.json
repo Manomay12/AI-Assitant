@@ -1,0 +1,56 @@
+{
+  "user_name": "Sir",
+  "preferred_language": "en",
+  "theme": "jarvis_cyan",
+  "voice_enabled": true,
+  "voice_speed": 175,
+  "voice_volume": 1.0,
+  "wake_word_enabled": true,
+  "auto_screenshot_analysis": false,
+  "saved_workflows": {
+    "study mode": [
+      {
+        "tool": "open_app",
+        "args": {
+          "app_name": "code"
+        }
+      },
+      {
+        "tool": "open_website",
+        "args": {
+          "website": "chatgpt"
+        }
+      },
+      {
+        "tool": "youtube_search",
+        "args": {
+          "query": "lofi chill study beats"
+        }
+      }
+    ],
+    "work mode": [
+      {
+        "tool": "open_app",
+        "args": {
+          "app_name": "chrome"
+        }
+      },
+      {
+        "tool": "open_website",
+        "args": {
+          "website": "gmail"
+        }
+      },
+      {
+        "tool": "open_website",
+        "args": {
+          "website": "github"
+        }
+      }
+    ]
+  },
+  "custom_aliases": {
+    "browser": "chrome",
+    "editor": "code"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "app:launch": "always_allow",
+    "app:terminate": "always_allow",
+    "browser:control": "always_allow",
+    "screen:read": "always_allow",
+    "system:control": "always_allow",
+    "file:read": "always_allow",
+    "file:write": "always_allow",
+    "microphone:access": "always_allow",
+    "camera:access": "always_allow",
+    "internet:research": "always_allow",
+    "comm:send": "always_allow"
+  }
+}
